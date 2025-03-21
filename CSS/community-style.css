@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header (igual al index) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #222;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: #333;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.show {
+    display: block;
+}
+
+/* Sección del foro */
+.forum {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.forum h1 {
+    text-align: center;
+}
+
+.forum p {
+    text-align: center;
+}
+
+#question-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#question-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#question-form button {
+    background: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Lista de preguntas */
+#question-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+#question-list li {
+    background: #444;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Enlaces externos */
+.external-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.external-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.external-links a:hover {
+    background: #e6b800;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    margin-top: 50px;
+}

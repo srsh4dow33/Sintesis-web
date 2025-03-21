@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* Menú de navegación */
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos del botón "Más" */
+.dropdown-btn {
+    cursor: pointer;
+    color: white;
+}
+
+/* Menú desplegable */
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #333;
+    padding: 10px;
+    list-style: none;
+    top: 40px;
+    right: 0;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#dropdown-menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+#dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown-menu li:hover {
+    background: #444;
+}
+
+/* Mostrar el menú cuando se active */
+.show {
+    display: block;
+}
+
+/* Sección hero */
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+#promo-container img, #promo-container video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#contact-button {
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Sección de productos */
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    margin: 20px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+/* Testimonios */
+.testimonials {
+    padding: 50px;
+    background: #1a1a1a;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f;
+}
+
+.socials a {
+    color: #ffcc00;
+    text-decoration: none;
+}

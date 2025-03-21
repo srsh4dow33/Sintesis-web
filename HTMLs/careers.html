@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con Nosotros - NONTENDO</title>
+    <link rel="stylesheet" href="../CSS/careers-style.css">
+</head>
+<body>
+
+    <!-- Header (igual que en otras páginas) -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="NONTENDO">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./about.html">Sobre Nosotros</a></li>
+                <li><a href="./solutions.html">Soluciones</a></li>
+                <li><a href="./products.html">Productos</a></li>
+                <li id="dropdown-trigger" class="dropdown-btn">Más ▼</li>
+            </ul>
+            <ul id="dropdown-menu" class="dropdown">
+                <li><a href="./succes-stories.html">Casos de Éxito</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./community.html">Comunidad</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+                <li><a href="./careers.html">Trabaja con Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Carreras -->
+    <main>
+        <section class="careers">
+            <h1>Únete a NONTENDO</h1>
+            <p>Descubre nuestras oportunidades laborales y forma parte del futuro de la IA en videojuegos.</p>
+
+            <!-- Lista de empleos -->
+            <h2>Puestos Disponibles</h2>
+            <ul id="job-list">
+                <li>Desarrollador de IA para NPCs - <span>Remoto</span></li>
+                <li>Diseñador UX/UI - <span>Presencial (Barcelona)</span></li>
+                <li>Ingeniero de Software - <span>Híbrido</span></li>
+            </ul>
+        </section>
+
+        <!-- Beneficios -->
+        <section class="benefits">
+            <h2>Beneficios de trabajar en NONTENDO</h2>
+            <ul>
+                <li>🏡 Trabajo remoto/híbrido</li>
+                <li>📈 Oportunidades de crecimiento</li>
+                <li>💰 Salario competitivo</li>
+                <li>🎮 Acceso a tecnología de vanguardia</li>
+            </ul>
+        </section>
+
+        <!-- Formulario para aplicar -->
+        <section class="apply">
+            <h2>Envíanos tu CV</h2>
+            <form id="apply-form">
+                <input type="text" id="name" placeholder="Nombre completo" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <input type="file" id="cv" accept=".pdf,.doc,.docx" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="form-message"></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 NONTENDO. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../JS/careers-script.js"></script>
+</body>
+</html>
